@@ -27,9 +27,18 @@ pygmentsCodefencesGuessSyntax = true
     series = "series"
     tag = "tags"
 
+[menu]
+    [[menu.main]]
+    name = "About"
+    weight = 300
+    identifier = "about"
+    url = "/about/"
+
 [params]
 	title = ""#"Graybeard Consulting"
 	author =  "Michael Litton"
 	description = ""
 	profilePicture = "images/logo-no-text.png"
 	doNotLoadAnimations = true
+    disableThemeSwitcher = true
+    contentratio = 0.8
